@@ -14,7 +14,7 @@ async function bootstrap() {
   app.setGlobalPrefix('api/v1');
   const swaqqgerConfig = new DocumentBuilder()
     .setTitle('Video-app Api')
-    .setDescription('The EDFHR API description')
+    .setDescription('video API description')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, swaqqgerConfig);
